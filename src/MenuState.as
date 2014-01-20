@@ -131,7 +131,7 @@ package
 				//If we were hip we'd use our own button animations, but we'll just recolor
 				//the stock ones for now instead.
 				var text:FlxText;
-				text = new FlxText(FlxG.width/2-50,FlxG.height/3+39,100,"by Adam Atomic")
+				text = new FlxText(FlxG.width/2-50,FlxG.height/3+39,100,"by Adam Atomic");
 				text.alignment = "center";
 				text.color = 0x3a5c39;
 				add(text);
